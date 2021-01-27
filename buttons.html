@@ -1,0 +1,28 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>transition an hover</title>
+			<style>
+				.A{
+					width:500px;
+					height:500px;
+					background-color:green;
+					border:5px double blue;
+					margin:auto;
+					padding:50px;
+					transition:5s all ease-in-out;
+					transform:rotateZ(0deg);
+					
+				}
+				.A:hover{
+					width:500px;
+					border-radus:500px;
+					background-color:pink;
+					transform:rotateZ(359deg);
+				}
+			</style>
+		</head>
+		<body>
+			<div class="A"></div>
+		</body>
+	</html>
